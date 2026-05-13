@@ -1,0 +1,969 @@
+{
+    "exercises": [
+        {
+            "id": 101,
+            "name": "Incline Barbell Bench Press",
+            "category": "PUSH",
+            "target_area": "UPPER_CHEST",
+            "secondary_targets": [
+                "FRONT_DELT",
+                "TRICEP_LATERAL"
+            ],
+            "type_score": 2,
+            "duration": 12,
+            "efficiency": 95,
+            "substitutes": [
+                102,
+                103
+            ],
+            "description": "Chỉnh ghế nghiêng góc 30-45 độ. Rút bả vai ra sau và ghim chặt xuống ghế. Khi hạ tạ, giữ cùi chỏ hợp với thân người một góc 45-60 độ (không dang ngang 90 độ). Hạ tạ chạm ngực trên (gần xương quai xanh) rồi đẩy mạnh lên."
+        },
+        {
+            "id": 102,
+            "name": "Incline Dumbbell Bench Press",
+            "category": "PUSH",
+            "target_area": "UPPER_CHEST",
+            "secondary_targets": [
+                "FRONT_DELT",
+                "TRICEP_LATERAL"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 90,
+            "substitutes": [
+                101,
+                103
+            ],
+            "description": "Chỉnh ghế góc 30 độ (mức nghiêng đầu tiên). Cầm tạ đơn, hạ sâu cho đến khi tạ ngang ngực, cảm nhận cơ ngực trên căng tối đa. Đẩy tạ lên theo hình vòng cung hơi chụm vào nhau ở đỉnh nhưng không để hai quả tạ va vào nhau."
+        },
+        {
+            "id": 103,
+            "name": "Low-to-High Cable Fly",
+            "category": "PUSH",
+            "target_area": "UPPER_CHEST",
+            "secondary_targets": [
+                "FRONT_DELT"
+            ],
+            "type_score": 1,
+            "duration": 6,
+            "efficiency": 45,
+            "substitutes": [
+                101,
+                102
+            ],
+            "description": "Chỉnh ròng rọc cáp xuống vị trí thấp nhất. Bước lên trước 1 bước nhỏ, ngực ưỡn. Kéo cáp từ dưới lên trên theo hướng chéo vào trong (hướng về phía cằm). Cố gắng ép chặt hai bắp tay vào sát ngực ở điểm cao nhất."
+        },
+        {
+            "id": 104,
+            "name": "Flat Barbell Bench Press",
+            "category": "PUSH",
+            "target_area": "MID_CHEST",
+            "secondary_targets": [
+                "FRONT_DELT",
+                "TRICEP_LATERAL",
+                "TRICEP_LONG"
+            ],
+            "type_score": 2,
+            "duration": 12,
+            "efficiency": 100,
+            "substitutes": [
+                105,
+                106,
+                107
+            ],
+            "description": "Nằm trên ghế phẳng, mắt nhìn thẳng vào thanh đòn. Nắm tạ rộng hơn vai 1.5 lần. Gồng chặt mông và đùi (Leg Drive). Hạ thanh đòn chạm vào điểm cao nhất của ngực (ngang núm vú). Đẩy dứt khoát và thở ra."
+        },
+        {
+            "id": 105,
+            "name": "Flat Dumbbell Bench Press",
+            "category": "PUSH",
+            "target_area": "MID_CHEST",
+            "secondary_targets": [
+                "FRONT_DELT",
+                "TRICEP_LATERAL"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 95,
+            "substitutes": [
+                104,
+                106,
+                107
+            ],
+            "description": "Ghế phẳng. Hơi xoay nhẹ cổ tay (vào trong khoảng 15 độ) để bảo vệ khớp vai. Hạ tạ thật chậm (2-3 giây) cho đến khi căng ngực, sau đó đẩy mạnh lên. Giữ bả vai luôn ép chặt xuống ghế trong suốt quá trình."
+        },
+        {
+            "id": 106,
+            "name": "Chest Press Machine",
+            "category": "PUSH",
+            "target_area": "MID_CHEST",
+            "secondary_targets": [
+                "FRONT_DELT",
+                "TRICEP_LATERAL"
+            ],
+            "type_score": 2,
+            "duration": 8,
+            "efficiency": 85,
+            "substitutes": [
+                104,
+                105,
+                107
+            ],
+            "description": "Chỉnh độ cao yên sao cho tay cầm nằm ngang hàng với phần giữa ngực. Đạp hai chân vững trên mặt đất, ưỡn ngực. Đẩy dứt khoát nhưng không khóa khớp cùi chỏ (không duỗi thẳng đuột tay) ở điểm cuối."
+        },
+        {
+            "id": 107,
+            "name": "Weighted Push-up",
+            "category": "PUSH",
+            "target_area": "MID_CHEST",
+            "secondary_targets": [
+                "FRONT_DELT",
+                "TRICEP_LATERAL"
+            ],
+            "type_score": 2,
+            "duration": 8,
+            "efficiency": 80,
+            "substitutes": [
+                104,
+                105,
+                106
+            ],
+            "description": "Đặt tạ bánh lên phần lưng trên (giữa hai bả vai). Đặt hai tay rộng bằng vai, ngón tay hướng về trước. Siết chặt cơ bụng và cơ mông để cơ thể tạo thành một đường thẳng tắp. Hạ người đến khi ngực cách sàn 2cm."
+        },
+        {
+            "id": 108,
+            "name": "Pec Deck Machine",
+            "category": "PUSH",
+            "target_area": "CHEST_FLY",
+            "secondary_targets": [],
+            "type_score": 1,
+            "duration": 6,
+            "efficiency": 50,
+            "substitutes": [
+                109
+            ],
+            "description": "Chỉnh yên ghế sao cho cánh tay song song với sàn. Hơi khuỵu cùi chỏ. Ép hai tay vào nhau (như đang ôm một thân cây lớn). Giữ lại 1 giây ở điểm hai tay chạm nhau để ép cơ ngực tối đa."
+        },
+        {
+            "id": 109,
+            "name": "Cable Crossover",
+            "category": "PUSH",
+            "target_area": "CHEST_FLY",
+            "secondary_targets": [],
+            "type_score": 1,
+            "duration": 7,
+            "efficiency": 55,
+            "substitutes": [
+                108
+            ],
+            "description": "Ròng rọc ở vị trí cao nhất. Hơi đổ người về phía trước khoảng 15-30 độ. Hơi khuỵu cùi chỏ, kéo hai tay đan chéo nhau ở phía trước vùng bụng dưới. Ép ngực mạnh và nhả cáp từ từ."
+        },
+        {
+            "id": 110,
+            "name": "Dumbbell Shoulder Press",
+            "category": "PUSH",
+            "target_area": "FRONT_DELT",
+            "secondary_targets": [
+                "TRICEP_LATERAL",
+                "LATERAL_DELT"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 85,
+            "substitutes": [
+                111
+            ],
+            "description": "Chỉnh ghế nghiêng 75-80 độ (Tuyệt đối KHÔNG dựng thẳng 90 độ để tránh chèn ép cột sống và khớp vai). Hơi đưa cùi chỏ về phía trước mặt một chút (Scapular plane). Đẩy tạ lên thẳng qua đầu, không để tạ chạm nhau."
+        },
+        {
+            "id": 111,
+            "name": "Front Plate Raise",
+            "category": "PUSH",
+            "target_area": "FRONT_DELT",
+            "secondary_targets": [
+                "MID_CHEST"
+            ],
+            "type_score": 1,
+            "duration": 5,
+            "efficiency": 40,
+            "substitutes": [
+                110
+            ],
+            "description": "Đứng thẳng, hai tay cầm hai bên rìa bánh tạ. Giữ cùi chỏ hơi cong. Nâng bánh tạ lên phía trước cho đến khi lỗ giữa bánh tạ nằm ngay tầm mắt. Từ từ hạ xuống không để tạ văng."
+        },
+        {
+            "id": 112,
+            "name": "Dumbbell Lateral Raise",
+            "category": "PUSH",
+            "target_area": "LATERAL_DELT",
+            "secondary_targets": [
+                "FRONT_DELT"
+            ],
+            "type_score": 1,
+            "duration": 7,
+            "efficiency": 65,
+            "substitutes": [
+                113,
+                114
+            ],
+            "description": "Hơi nghiêng người về trước 10 độ. Hơi gập cùi chỏ. Nâng tạ sang hai bên nhưng hướng hơi chếch về trước (tạo góc chữ V rộng). Ở điểm cao nhất, xoay nhẹ cổ tay (như đang rót nước) để cô lập cơ vai giữa."
+        },
+        {
+            "id": 113,
+            "name": "Cable Lateral Raise",
+            "category": "PUSH",
+            "target_area": "LATERAL_DELT",
+            "secondary_targets": [
+                "FRONT_DELT"
+            ],
+            "type_score": 1,
+            "duration": 7,
+            "efficiency": 65,
+            "substitutes": [
+                112,
+                114
+            ],
+            "description": "Chỉnh ròng rọc thấp nhất. Đứng cạnh máy, tay nắm cáp chéo qua người (tay phải nắm cáp trái). Hơi nghiêng người ra xa máy. Nâng cáp sang ngang đến ngang vai. Cáp giúp cơ vai chịu lực liên tục cả khi hạ xuống."
+        },
+        {
+            "id": 114,
+            "name": "Upright Row",
+            "category": "PUSH",
+            "target_area": "LATERAL_DELT",
+            "secondary_targets": [
+                "FRONT_DELT"
+            ],
+            "type_score": 2,
+            "duration": 8,
+            "efficiency": 75,
+            "substitutes": [
+                112,
+                113
+            ],
+            "description": "Cầm thanh đòn rộng HƠN vai (cầm hẹp sẽ dễ đau khớp vai). Kéo thanh đòn trượt sát dọc lên thân người cho đến khi cùi chỏ cao ngang vai. Tập trung dùng cùi chỏ để kéo hướng lên trên, không dùng bàn tay."
+        },
+        {
+            "id": 115,
+            "name": "Tricep Pushdown (Straight/V-Bar)",
+            "category": "PUSH",
+            "target_area": "TRICEP_LATERAL",
+            "secondary_targets": [],
+            "type_score": 1,
+            "duration": 6,
+            "efficiency": 55,
+            "substitutes": [
+                116
+            ],
+            "description": "Đứng gập người nhẹ. Ép chặt phần bắp tay (từ vai đến cùi chỏ) vào sát mạn sườn và GIỮ CỐ ĐỊNH. Chỉ dùng cẳng tay để nhấn cáp xuống thẳng đứng. Duỗi tay hết cỡ và gồng cơ tay sau."
+        },
+        {
+            "id": 116,
+            "name": "Weighted Dips (Hẹp tay)",
+            "category": "PUSH",
+            "target_area": "TRICEP_LATERAL",
+            "secondary_targets": [
+                "MID_CHEST",
+                "FRONT_DELT"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 85,
+            "substitutes": [
+                115
+            ],
+            "description": "Deo tạ vào hông. Đứng trên xà kép. Giữ thân người THẲNG ĐỨNG (không đổ về trước để tránh ăn vào ngực). Ép cùi chỏ sát vào thân người khi hạ xuống. Hạ đến khi cùi chỏ gập 90 độ thì đẩy mạnh lên."
+        },
+        {
+            "id": 117,
+            "name": "Cable Overhead Extension (Rope)",
+            "category": "PUSH",
+            "target_area": "TRICEP_LONG",
+            "secondary_targets": [],
+            "type_score": 1,
+            "duration": 6,
+            "efficiency": 55,
+            "substitutes": [
+                118
+            ],
+            "description": "Lắp dây thừng (Rope), chỉnh cáp cao vừa phải. Đứng xoay lưng lại với máy, kéo dây qua đầu. Giữ bắp tay chĩa thẳng lên trần nhà và cố định sát mang tai. Duỗi cẳng tay về phía trước cho đến khi thẳng tay."
+        },
+        {
+            "id": 118,
+            "name": "Skullcrusher (EZ Bar/Dumbbell)",
+            "category": "PUSH",
+            "target_area": "TRICEP_LONG",
+            "secondary_targets": [
+                "TRICEP_LATERAL"
+            ],
+            "type_score": 1,
+            "duration": 8,
+            "efficiency": 60,
+            "substitutes": [
+                117
+            ],
+            "description": "Nằm ghế phẳng. Đưa thanh đòn lên cao, sau đó hơi nghiêng bắp tay về phía đầu khoảng 15 độ. Hạ tạ từ từ xuống khu vực đỉnh đầu (chứ không phải trán) để duy trì lực căng. Chỉ cử động cẳng tay."
+        },
+        {
+            "id": 201,
+            "name": "Pull-up (Lên xà đơn)",
+            "category": "PULL",
+            "target_area": "BACK_VERTICAL",
+            "secondary_targets": [
+                "BICEP_SHORT_BRAC",
+                "REAR_DELT"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 95,
+            "substitutes": [
+                202,
+                203
+            ],
+            "description": "Nắm xà rộng hơn vai. Treo người tự nhiên, hơi ưỡn ngực. Hướng cùi chỏ kéo thẳng xuống đất để đưa ngực chạm sát vào thanh xà. Không dùng lực văng đung đưa cơ thể."
+        },
+        {
+            "id": 202,
+            "name": "Lat Pulldown (Kéo cáp rộng tay)",
+            "category": "PULL",
+            "target_area": "BACK_VERTICAL",
+            "secondary_targets": [
+                "BICEP_SHORT_BRAC",
+                "REAR_DELT"
+            ],
+            "type_score": 2,
+            "duration": 8,
+            "efficiency": 85,
+            "substitutes": [
+                201,
+                203
+            ],
+            "description": "Ngồi kẹp chặt đùi vào đệm. Nắm thanh kéo rộng hơn vai. Hơi ngả người ra sau khoảng 15-20 độ, cố định cột sống. Kéo thanh đòn xuống chạm phần ngực trên (xương quai xanh). Nhả cáp có kiểm soát."
+        },
+        {
+            "id": 203,
+            "name": "Assisted Pull-up Machine",
+            "category": "PULL",
+            "target_area": "BACK_VERTICAL",
+            "secondary_targets": [
+                "BICEP_SHORT_BRAC",
+                "REAR_DELT"
+            ],
+            "type_score": 2,
+            "duration": 8,
+            "efficiency": 80,
+            "substitutes": [
+                201,
+                202
+            ],
+            "description": "Quỳ gối lên bệ đỡ. Giữ form tương tự như kéo xà đơn: Hơi ưỡn ngực, tập trung dùng cơ xô kéo cùi chỏ xuống. Ưu điểm: Phù hợp để pump cơ ở cuối buổi hoặc tập chậm cảm nhận cơ tốt hơn."
+        },
+        {
+            "id": 204,
+            "name": "Seated Cable Row (Ngồi kéo cáp)",
+            "category": "PULL",
+            "target_area": "BACK_HORIZONTAL",
+            "secondary_targets": [
+                "BICEP_LONG",
+                "REAR_DELT"
+            ],
+            "type_score": 2,
+            "duration": 8,
+            "efficiency": 85,
+            "substitutes": [
+                205,
+                206
+            ],
+            "description": "Ngồi thẳng lưng, hơi chùng gối. Không dùng đà ngả lưng ra sau. Kéo tay cầm về sát bụng (rốn). Ở điểm cuối, phải cảm nhận hai bả vai ép chặt vào nhau. Giãn cơ xô tối đa khi nhả tạ."
+        },
+        {
+            "id": 205,
+            "name": "Dumbbell Row (Kéo tạ đơn một tay)",
+            "category": "PULL",
+            "target_area": "BACK_HORIZONTAL",
+            "secondary_targets": [
+                "BICEP_LONG",
+                "REAR_DELT"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 90,
+            "substitutes": [
+                204,
+                206
+            ],
+            "description": "Một gối và một tay chống lên ghế phẳng. Lưng song song với sàn. Khi kéo tạ, không kéo thẳng lên ngực mà kéo vòng cung hướng tạ về phía hông/túi quần. Hạ tạ giãn hết vai xuống dưới."
+        },
+        {
+            "id": 206,
+            "name": "Barbell Row (Gập người kéo đòn)",
+            "category": "PULL",
+            "target_area": "BACK_HORIZONTAL",
+            "secondary_targets": [
+                "BICEP_LONG",
+                "REAR_DELT"
+            ],
+            "type_score": 2,
+            "duration": 12,
+            "efficiency": 100,
+            "substitutes": [
+                204,
+                205
+            ],
+            "description": "Gập người một góc 45-60 độ so với mặt đất. Lưng dưới giữ thẳng tuyệt đối. Kéo thanh đòn hướng về phần rốn. Đây là bài tập nặng, hãy tập trung gồng core thật chặt để bảo vệ cột sống."
+        },
+        {
+            "id": 207,
+            "name": "Straight Arm Pulldown",
+            "category": "PULL",
+            "target_area": "BACK_ISOLATION",
+            "secondary_targets": [
+                "TRICEP_LONG"
+            ],
+            "type_score": 1,
+            "duration": 6,
+            "efficiency": 50,
+            "substitutes": [
+                208
+            ],
+            "description": "Lắp dây thừng hoặc thanh ngang. Lùi lại một bước, hơi gập người. Giữ thẳng cánh tay (chỉ hơi cong gối cùi chỏ nhẹ). Dùng lực cơ xô (Lats) kéo cáp theo hình vòng cung xuống sát đùi."
+        },
+        {
+            "id": 208,
+            "name": "Cable Pullover",
+            "category": "PULL",
+            "target_area": "BACK_ISOLATION",
+            "secondary_targets": [
+                "TRICEP_LONG"
+            ],
+            "type_score": 1,
+            "duration": 7,
+            "efficiency": 55,
+            "substitutes": [
+                207
+            ],
+            "description": "Nằm ngửa trên ghế phẳng đặt cạnh máy cáp. Hai tay nắm dây cáp (ròng rọc thấp). Kéo cáp từ phía sau đầu vòng qua mặt cho đến khi tay chạm hông. Cô lập hoàn toàn cơ xô mà không mỏi lưng dưới."
+        },
+        {
+            "id": 209,
+            "name": "Reverse Pec Deck Machine",
+            "category": "PULL",
+            "target_area": "REAR_DELT",
+            "secondary_targets": [
+                "LATERAL_DELT"
+            ],
+            "type_score": 1,
+            "duration": 6,
+            "efficiency": 45,
+            "substitutes": [
+                210
+            ],
+            "description": "Ngồi úp ngực vào ghế. Cầm tay cầm nằm ngang. Giữ tay hơi cong nhẹ, kéo mở rộng tay sang hai bên. Đẩy suy nghĩ vào mặt sau của vai, không dùng lực ép hai bả vai vào nhau (tránh ăn vào lưng giữa)."
+        },
+        {
+            "id": 210,
+            "name": "Face Pull (Kéo cáp ngang mặt)",
+            "category": "PULL",
+            "target_area": "REAR_DELT",
+            "secondary_targets": [
+                "LATERAL_DELT"
+            ],
+            "type_score": 1,
+            "duration": 6,
+            "efficiency": 50,
+            "substitutes": [
+                209
+            ],
+            "description": "Chỉnh cáp ngang tầm mắt, dùng dây thừng. Kéo cáp hướng thẳng vào sống mũi/trán. Khi kéo, chủ động tách hai đầu dây thừng ra xa và xoay cùi chỏ lên trên để kích hoạt tối đa cơ vai sau và chóp xoay."
+        },
+        {
+            "id": 211,
+            "name": "Incline Dumbbell Curl",
+            "category": "PULL",
+            "target_area": "BICEP_LONG",
+            "secondary_targets": [
+                "BICEP_SHORT_BRAC"
+            ],
+            "type_score": 1,
+            "duration": 7,
+            "efficiency": 60,
+            "substitutes": [
+                212
+            ],
+            "description": "Chỉnh ghế nghiêng 45-60 độ, tựa lưng sát ghế. Ép chặt bả vai, để hai cánh tay buông thõng hoàn toàn ra MẶT SAU của thân người. Cuốn tạ lên nhưng giữ nguyên bắp tay (không đẩy cùi chỏ ra trước)."
+        },
+        {
+            "id": 212,
+            "name": "Behind-the-Back Cable Curl",
+            "category": "PULL",
+            "target_area": "BICEP_LONG",
+            "secondary_targets": [
+                "BICEP_SHORT_BRAC"
+            ],
+            "type_score": 1,
+            "duration": 6,
+            "efficiency": 55,
+            "substitutes": [
+                211
+            ],
+            "description": "Đứng quay lưng lại với máy cáp, ròng rọc thấp nhất. Cầm cáp bằng một tay, bước tới trước sao cho cánh tay bị cáp kéo giãn ra phía sau lưng. Cuốn tay lên để kích thích cực sâu vào đầu dài cơ nhị đầu."
+        },
+        {
+            "id": 213,
+            "name": "Preacher Curl (Barbell/Dumbbell)",
+            "category": "PULL",
+            "target_area": "BICEP_SHORT_BRAC",
+            "secondary_targets": [],
+            "type_score": 1,
+            "duration": 7,
+            "efficiency": 60,
+            "substitutes": [
+                214
+            ],
+            "description": "Tỳ sát nách và toàn bộ bắp tay sau lên đệm ghế Preacher. Hơi siết cơ ngực. Hạ tạ xuống từ từ (không duỗi thẳng đuột tay ở điểm cuối tránh chấn thương gân). Cuốn tạ lên dứt khoát."
+        },
+        {
+            "id": 214,
+            "name": "Barbell Bicep Curl",
+            "category": "PULL",
+            "target_area": "BICEP_SHORT_BRAC",
+            "secondary_targets": [
+                "BICEP_LONG"
+            ],
+            "type_score": 1,
+            "duration": 8,
+            "efficiency": 65,
+            "substitutes": [
+                213
+            ],
+            "description": "Đứng thẳng, nắm thanh đòn rộng bằng vai. Ép sát cùi chỏ vào hai bên mạn sườn. KHÔNG đung đưa lưng để lấy đà. Cuốn thanh đòn lên đến ngang ngực trên, gồng bắp tay trước, hạ chậm trong 3 giây."
+        },
+        {
+            "id": 301,
+            "name": "Hack Squat Machine",
+            "category": "LEG",
+            "target_area": "QUAD_PRIMARY",
+            "secondary_targets": [],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 90,
+            "substitutes": [
+                302,
+                303
+            ],
+            "description": "Tựa lưng sát đệm. Đặt bàn chân sát nhau và thấp trên bệ đỡ để ăn nhiều nhất vào Đùi trước (Quads). Hạ sâu xuống dưới mức song song (nếu linh hoạt khớp cho phép), đẩy mạnh gót chân lên."
+        },
+        {
+            "id": 302,
+            "name": "Leg Press",
+            "category": "LEG",
+            "target_area": "QUAD_PRIMARY",
+            "secondary_targets": [],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 90,
+            "substitutes": [
+                301,
+                303
+            ],
+            "description": "Đặt bàn chân rộng bằng vai, vị trí giữa bệ đỡ. Hạ tạ xuống sâu nhưng KHÔNG để hông/lưng dưới bị cuộn nhấc lên khỏi ghế. Khi đẩy lên, tuyệt đối KHÔNG khóa duỗi thẳng đuột khớp gối để tránh gãy chân."
+        },
+        {
+            "id": 303,
+            "name": "Barbell Back Squat",
+            "category": "LEG",
+            "target_area": "QUAD_PRIMARY",
+            "secondary_targets": [
+                "HAMSTRING_PRIMARY",
+                "CALF_ISOLATION"
+            ],
+            "type_score": 2,
+            "duration": 15,
+            "efficiency": 100,
+            "substitutes": [
+                301,
+                302
+            ],
+            "description": "Đặt thanh đòn trên phần cơ thang (Traps). Đứng rộng bằng vai, mũi chân xoay nhẹ ra ngoài 15-30 độ. Hít sâu gồng căng bụng. Mở gối theo hướng mũi chân, hạ hông xuống như ngồi vào ghế, giữ lưng thẳng."
+        },
+        {
+            "id": 304,
+            "name": "Romanian Deadlift (RDL)",
+            "category": "LEG",
+            "target_area": "HAMSTRING_PRIMARY",
+            "secondary_targets": [
+                "BACK_HORIZONTAL",
+                "CALF_ISOLATION"
+            ],
+            "type_score": 2,
+            "duration": 12,
+            "efficiency": 95,
+            "substitutes": [
+                305
+            ],
+            "description": "Chùng nhẹ khớp gối (khoảng 15 độ) và CỐ ĐỊNH góc gối đó. Đẩy hông ra sau hết cỡ như đang cố chạm mông vào bức tường phía sau. Giữ thanh đòn trượt sát dọc theo ống đồng. Siết mông để đứng lên."
+        },
+        {
+            "id": 305,
+            "name": "Dumbbell RDL",
+            "category": "LEG",
+            "target_area": "HAMSTRING_PRIMARY",
+            "secondary_targets": [
+                "BACK_HORIZONTAL"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 85,
+            "substitutes": [
+                304
+            ],
+            "description": "Giống với RDL thanh đòn. Cầm hai quả tạ đơn hơi chếch ở hai bên hông. Đẩy hông ra sau. Ưu điểm: Phù hợp cho những ai bị đau lưng dưới vì tạ đơn giúp trọng tâm phân bố đều hai bên trục cơ thể."
+        },
+        {
+            "id": 306,
+            "name": "Walking Lunges",
+            "category": "LEG",
+            "target_area": "QUAD_SECONDARY",
+            "secondary_targets": [
+                "QUAD_PRIMARY",
+                "HAMSTRING_PRIMARY"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 80,
+            "substitutes": [
+                307
+            ],
+            "description": "Bước sải chân dài. Khi hạ người xuống, đầu gối chân sau gần chạm sàn, gối chân trước không vượt quá mũi chân. Giữ thân người thẳng đứng để ăn vào đùi trước, đổ thân người về trước để ăn vào mông."
+        },
+        {
+            "id": 307,
+            "name": "Dumbbell Step-up",
+            "category": "LEG",
+            "target_area": "QUAD_SECONDARY",
+            "secondary_targets": [
+                "QUAD_PRIMARY",
+                "HAMSTRING_PRIMARY"
+            ],
+            "type_score": 2,
+            "duration": 8,
+            "efficiency": 75,
+            "substitutes": [
+                306
+            ],
+            "description": "Sử dụng bục cao ngang đầu gối. Đặt trọn bàn chân trụ lên bục. Rất quan trọng: Phải đạp bằng gót chân trên bục để nâng cơ thể lên, KHÔNG dùng chân dưới đất để nhún đẩy lên."
+        },
+        {
+            "id": 308,
+            "name": "Leg Extension",
+            "category": "LEG",
+            "target_area": "QUAD_ISOLATION",
+            "secondary_targets": [],
+            "type_score": 1,
+            "duration": 6,
+            "efficiency": 55,
+            "substitutes": [],
+            "description": "Ngồi sát tựa lưng. Chỉnh trục xoay của máy nằm ĐÚNG ngay vị trí khớp gối của bạn. Đá lên dứt khoát, gồng siết cơ đùi trước (nhất là phần gần đầu gối) khoảng 1 giây ở đỉnh điểm, sau đó hạ chậm có kiểm soát."
+        },
+        {
+            "id": 309,
+            "name": "Seated Leg Curl",
+            "category": "LEG",
+            "target_area": "HAMSTRING_ISOLATION",
+            "secondary_targets": [],
+            "type_score": 1,
+            "duration": 6,
+            "efficiency": 55,
+            "substitutes": [
+                310
+            ],
+            "description": "Ngồi máy cuộn đùi sau. Kẹp chặt đệm tỳ lên trên đùi để cố định cơ thể. Duỗi chân thẳng (không khóa khớp) rồi cuộn gập gối kéo gót chân về phía mông. Kiểm soát lực tạ ở pha nhả cáp."
+        },
+        {
+            "id": 310,
+            "name": "Lying Leg Curl",
+            "category": "LEG",
+            "target_area": "HAMSTRING_ISOLATION",
+            "secondary_targets": [],
+            "type_score": 1,
+            "duration": 6,
+            "efficiency": 50,
+            "substitutes": [
+                309
+            ],
+            "description": "Nằm sấp trên máy. Canh chỉnh trục xoay của máy ngang với đầu gối. Ép chặt phần hông (xương chậu) xuống đệm ghế, không được để hông nhấc lên khi cuộn tạ để tránh ăn lực vào lưng dưới."
+        },
+        {
+            "id": 311,
+            "name": "Seated Calf Raise",
+            "category": "LEG",
+            "target_area": "CALF_ISOLATION",
+            "secondary_targets": [],
+            "type_score": 1,
+            "duration": 5,
+            "efficiency": 45,
+            "substitutes": [
+                312
+            ],
+            "description": "Bài tập ngồi tập trung phát triển cơ Dép (Soleus) nằm ẩn bên trong bắp chân. Đặt nửa mũi chân lên bục. Hạ gót chân xuống TỐI ĐA để kéo giãn gân gót, sau đó nhón mạnh gót lên cao nhất có thể."
+        },
+        {
+            "id": 312,
+            "name": "Standing Calf Raise",
+            "category": "LEG",
+            "target_area": "CALF_ISOLATION",
+            "secondary_targets": [],
+            "type_score": 1,
+            "duration": 5,
+            "efficiency": 45,
+            "substitutes": [
+                311
+            ],
+            "description": "Đứng nhón gót (trên máy hoặc cầm tạ đơn). Giữ đầu gối thẳng nhưng không khóa chặt. Tập trung kích thích cơ Bụng chân (Gastrocnemius) bên ngoài. Nhón gót dứt khoát, giữ lại 1 giây ở đỉnh để tạo nét cơ."
+        },
+        {
+            "id": 119,
+            "name": "Decline Barbell Bench Press",
+            "category": "PUSH",
+            "target_area": "MID_CHEST",
+            "secondary_targets": [
+                "TRICEP_LATERAL",
+                "FRONT_DELT"
+            ],
+            "type_score": 2,
+            "duration": 12,
+            "efficiency": 90,
+            "substitutes": [
+                104,
+                105,
+                106
+            ],
+            "description": "Nằm trên ghế dốc xuống. Bắt đầu đẩy tạ từ vị trí ngay dưới núm vú. Bài tập này cho phép đẩy mức tạ nặng hơn ghế phẳng và hạn chế tối đa áp lực lên khớp vai trước (Front Delt), rất tốt để xây dựng độ dày cho toàn bộ vùng ngực."
+        },
+        {
+            "id": 120,
+            "name": "Machine Shoulder Press",
+            "category": "PUSH",
+            "target_area": "FRONT_DELT",
+            "secondary_targets": [
+                "TRICEP_LATERAL",
+                "LATERAL_DELT"
+            ],
+            "type_score": 2,
+            "duration": 8,
+            "efficiency": 85,
+            "substitutes": [
+                110,
+                121
+            ],
+            "description": "Ngồi thẳng lưng trên máy, nắm tay cầm song song hoặc hướng về trước. Máy tập giúp loại bỏ sự mất thăng bằng của tạ đơn, cho phép bạn tập trung 100% vào việc đẩy mức tạ nặng nhất có thể lên trên để pump cơ vai."
+        },
+        {
+            "id": 121,
+            "name": "Arnold Press",
+            "category": "PUSH",
+            "target_area": "FRONT_DELT",
+            "secondary_targets": [
+                "LATERAL_DELT",
+                "TRICEP_LATERAL"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 88,
+            "substitutes": [
+                110,
+                120
+            ],
+            "description": "Bắt đầu với hai quả tạ đơn ở trước mặt, lòng bàn tay hướng vào cơ thể (giống điểm kết thúc của Bicep Curl). Khi đẩy lên, từ từ xoay cổ tay ra ngoài. Chuyển động xoay này giúp kích thích thêm nhiều sợi cơ ở vai giữa và vai trước."
+        },
+        {
+            "id": 122,
+            "name": "Dumbbell Flyes",
+            "category": "PUSH",
+            "target_area": "CHEST_FLY",
+            "secondary_targets": [],
+            "type_score": 1,
+            "duration": 8,
+            "efficiency": 50,
+            "substitutes": [
+                108,
+                109
+            ],
+            "description": "Nằm trên ghế phẳng, cầm 2 quả tạ đơn. Hơi gập nhẹ cùi chỏ và giữ cố định góc đó. Mở rộng hai tay sang ngang như ôm một cái ôm lớn để giãn căng cơ ngực, sau đó ép ngực để đưa tạ về lại vị trí ban đầu."
+        },
+        {
+            "id": 123,
+            "name": "Close-Grip Bench Press",
+            "category": "PUSH",
+            "target_area": "TRICEP_LATERAL",
+            "secondary_targets": [
+                "MID_CHEST",
+                "FRONT_DELT"
+            ],
+            "type_score": 2,
+            "duration": 12,
+            "efficiency": 85,
+            "substitutes": [
+                115,
+                116
+            ],
+            "description": "Nằm ghế phẳng, tay nắm đòn hẹp hơn vai một chút (ngang vạch khía trong cùng của thanh đòn). Ép chặt cùi chỏ sát vào mạn sườn khi hạ tạ. Đây là bài tập sức mạnh tuyệt vời nhất để gia tăng khối lượng cho cơ tay sau."
+        },
+        {
+            "id": 215,
+            "name": "T-Bar Row",
+            "category": "PULL",
+            "target_area": "BACK_HORIZONTAL",
+            "secondary_targets": [
+                "BICEP_LONG",
+                "REAR_DELT",
+                "MID_CHEST"
+            ],
+            "type_score": 2,
+            "duration": 12,
+            "efficiency": 95,
+            "substitutes": [
+                204,
+                206
+            ],
+            "description": "Đứng gập người, kẹp thanh đòn vào giữa hai chân. Dùng tay cầm chữ V kéo một đầu thanh đòn lên sát ngực. Giữ lưng dưới thẳng tuyệt đối. Bài này giúp xây dựng độ dày cho phần lưng giữa (Mid-back) cực kỳ hiệu quả."
+        },
+        {
+            "id": 216,
+            "name": "Chest-Supported Dumbbell Row",
+            "category": "PULL",
+            "target_area": "BACK_HORIZONTAL",
+            "secondary_targets": [
+                "BICEP_LONG",
+                "REAR_DELT"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 90,
+            "substitutes": [
+                205,
+                215
+            ],
+            "description": "Nằm sấp trên ghế nghiêng góc 30-45 độ. Cầm 2 tạ đơn kéo về phía hông. Việc tựa ngực lên ghế giúp loại bỏ hoàn toàn áp lực lên cột sống/lưng dưới, cho phép bạn tập trung 100% vào việc siết cơ xô và lưng."
+        },
+        {
+            "id": 217,
+            "name": "Dumbbell Hammer Curl",
+            "category": "PULL",
+            "target_area": "BICEP_SHORT_BRAC",
+            "secondary_targets": [
+                "BICEP_LONG"
+            ],
+            "type_score": 1,
+            "duration": 8,
+            "efficiency": 55,
+            "substitutes": [
+                213,
+                214
+            ],
+            "description": "Cầm tạ đơn theo chiều dọc (Neutral grip - như cầm búa). Giữ cố định cùi chỏ bên hông. Cuốn tạ lên hướng về phía vai. Bài này tập trung mạnh vào cơ Brachialis, giúp bắp tay nhìn to và dày hơn từ góc nhìn nghiêng."
+        },
+        {
+            "id": 218,
+            "name": "Dumbbell Pullover",
+            "category": "PULL",
+            "target_area": "BACK_ISOLATION",
+            "secondary_targets": [
+                "TRICEP_LONG",
+                "MID_CHEST"
+            ],
+            "type_score": 1,
+            "duration": 8,
+            "efficiency": 50,
+            "substitutes": [
+                207,
+                208
+            ],
+            "description": "Nằm ngửa ngang trên ghế (chỉ phần vai chạm ghế). Dùng hai tay nâng một quả tạ đơn qua đầu. Từ từ hạ tạ ra phía sau đầu để kéo giãn lồng ngực và cơ xô, sau đó kéo tạ trở lại vị trí thẳng đứng trên ngực."
+        },
+        {
+            "id": 219,
+            "name": "Single-Arm Cable Lat Pulldown",
+            "category": "PULL",
+            "target_area": "BACK_VERTICAL",
+            "secondary_targets": [
+                "BICEP_SHORT_BRAC"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 85,
+            "substitutes": [
+                202
+            ],
+            "description": "Dùng tay cầm đơn (D-handle) trên máy kéo xô. Kéo bằng một tay, hơi nghiêng thân người về phía tay đang kéo. Việc tập từng tay giúp phạm vi chuyển động (ROM) dài hơn và điều chỉnh sự mất cân bằng cơ giữa hai bên."
+        },
+        {
+            "id": 313,
+            "name": "Bulgarian Split Squat",
+            "category": "LEG",
+            "target_area": "QUAD_SECONDARY",
+            "secondary_targets": [
+                "HAMSTRING_PRIMARY",
+                "QUAD_PRIMARY"
+            ],
+            "type_score": 2,
+            "duration": 14,
+            "efficiency": 95,
+            "substitutes": [
+                306,
+                307
+            ],
+            "description": "Gác một chân lên bục/ghế phía sau. Hạ người xuống bằng chân trụ phía trước sao cho đầu gối chân trước linh hoạt (có thể đẩy nhẹ qua mũi chân để ăn vào đùi trước). Giữ thân người thẳng đứng, gồng chặt core."
+        },
+        {
+            "id": 314,
+            "name": "Barbell Front Squat",
+            "category": "LEG",
+            "target_area": "QUAD_PRIMARY",
+            "secondary_targets": [
+                "QUAD_SECONDARY"
+            ],
+            "type_score": 2,
+            "duration": 15,
+            "efficiency": 95,
+            "substitutes": [
+                301,
+                303
+            ],
+            "description": "Đặt thanh đòn ở phía trước ngực (tựa lên vai trước/xương quai xanh). Đòi hỏi lưng phải giữ thẳng đứng hơn so với Back Squat, từ đó dồn gần như toàn bộ áp lực vào cơ đùi trước (Quads) thay vì mông đùi sau."
+        },
+        {
+            "id": 315,
+            "name": "Goblet Squat",
+            "category": "LEG",
+            "target_area": "QUAD_PRIMARY",
+            "secondary_targets": [
+                "QUAD_SECONDARY"
+            ],
+            "type_score": 2,
+            "duration": 10,
+            "efficiency": 85,
+            "substitutes": [
+                301,
+                314
+            ],
+            "description": "Ôm một quả tạ đơn hoặc tạ ấm (Kettlebell) ngay sát trước ngực. Mở rộng hai gối và ngồi xổm xuống (Squat). Vị trí cầm tạ giúp người tập dễ dàng giữ lưng thẳng và hạ hông sâu (Ass-to-grass) một cách tự nhiên."
+        },
+        {
+            "id": 316,
+            "name": "Good Morning",
+            "category": "LEG",
+            "target_area": "HAMSTRING_PRIMARY",
+            "secondary_targets": [
+                "BACK_HORIZONTAL"
+            ],
+            "type_score": 2,
+            "duration": 12,
+            "efficiency": 90,
+            "substitutes": [
+                304,
+                305
+            ],
+            "description": "Đặt thanh đòn trên lưng như tư thế Back Squat. Giữ chân hơi chùng, thực hiện động tác gập hông (Hip Hinge) bằng cách đẩy mông ra sau cho đến khi lưng song song mặt đất. Cảm nhận đùi sau căng hết cỡ rồi siết mông đứng thẳng lên."
+        }
+    ]
+}

@@ -37,12 +37,12 @@ class HistoryManager:
         self.collection = None
         self.history = {} # 👉 Khai báo sẵn biến history để không bao giờ bị sập
         
-        username = "25520969Kim"
-        password = "42@nhThu"
-        host = "cluster0.9ljwfna.mongodb.net"
-        
-        uri = f"mongodb+srv://{quote_plus(username)}:{quote_plus(password)}@{host}/?appName=Cluster0"
-        
+        # Connection string is read from the environment so no credentials live in the repo.
+        uri = os.environ.get(uri_env_var)
+        if not uri:
+            print(f"⚠️ {uri_env_var} is not set - running without workout history.", flush=True)
+            return
+
         try:
             self.client = pymongo.MongoClient(uri)
             self.db = self.client["smart_gym_db"]
